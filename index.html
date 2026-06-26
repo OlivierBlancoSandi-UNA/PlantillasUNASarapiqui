@@ -165,7 +165,7 @@
     <script>
      
         $(document).ready(function () {
-            fetch("plantillas.json")
+            fetch(`plantillas.json?v=${Date.now()}`)
                 .then(response => response.json())
                 .then(data => {
                     setTable("#plantillas-generales", data.generales);
