@@ -1,30 +1,38 @@
 {
   "generales": [
     {
+      "nombre": "Firma para correo electrónico",
+      "enlace": "https://canva.link/fphekfgsjz2wg2r"
+    },
+    {
+      "nombre": "Comunicados generales",
+      "enlace": "https://canva.link/ix44tnbfybnoyqa"
+    },
+    {
+      "nombre": "Comunicado general oficial",
+      "enlace": "https://canva.link/aq719qz7t3al78u"
+    },
+    {
       "nombre": "Certificado de Participación",
-      "enlace": "https://www.canva.com/design/DAGxxxxxxxxxxxxxxxx/view"
+      "enlace": "https://canva.link/c2od6it5y6yxcnh"
     },
     {
-      "nombre": "Presentación Académica",
-      "enlace": "https://www.canva.com/design/DAGyyyyyyyyyyyyyyyy/view"
-    },
-    {
-      "nombre": "Infografía Educativa",
-      "enlace": "https://www.canva.com/design/DAGzzzzzzzzzzzzzzzz/view"
+      "nombre": "Presentación",
+      "enlace": "https://canva.link/w0wtfgmsnjmdhho"
     }
   ],
   "comisiones": [
     {
-      "nombre": "Certificado de Participación",
-      "enlace": "https://www.canva.com/design/DAGxxxxxxxxxxxxxxxx/view"
+      "nombre": "Comisión de Producción, Difusión y Reconocimiento Académico",
+      "enlace": "https://canva.link/k125o4ms88krd51"
     },
     {
-      "nombre": "Presentación Académica",
-      "enlace": "https://www.canva.com/design/DAGyyyyyyyyyyyyyyyy/view"
+      "nombre": "Comisión de Trabajo Final de Graduación",
+      "enlace": "https://canva.link/jwqkkqpwaohnph7"
     },
     {
-      "nombre": "Infografía Educativa",
-      "enlace": "https://www.canva.com/design/DAGzzzzzzzzzzzzzzzz/view"
+      "nombre": "Comité Académico Asesor del Subsistema Biblioteca",
+      "enlace": "https://canva.link/novjiiym0vx2bq0"
     }
   ]
 }
