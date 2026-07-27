@@ -119,6 +119,46 @@
 
                     </div>
 
+
+
+                    <hr>
+
+
+
+                    <p class="lead">Documentos Destacados</p>
+                    <p>Para su comodidad, se presentan los enlaces a las circulares destacadas de la institución, en donde se indican normas específicas para la gestión académica.</p>
+
+                    <div class="row">
+
+                        <div class="col-sm-12">
+
+
+                            <div class="card shadow mb-4">
+                                <div class="card-header py-3">
+                                    <h6 class="m-0 font-weight-bold text-primary">Circulares</h6>
+                                </div>
+                                <div class="card-body">
+                                    <div class="table-responsive">
+                                        <table id="circulares" class="table table-bordered dataTable"
+                                            width="100%" cellspacing="0">
+                                            <thead class="table-dark">
+                                                <tr>
+                                                    <th>Circular</th>
+                                                    <th>Enlace</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody></tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+
                 </div>
 
 
@@ -172,6 +212,12 @@
                     setTable("#plantillas-generales", data.generales);
                     setTable("#plantillas-comisiones", data.comisiones);
                 });
+
+            fetch(`documentos.json?v=${Date.now()}`)
+                .then(response => response.json())
+                .then(data => {
+                    setTable("#circulares", data.circulares);
+                });
         });
 
         function setTable(id, data) {
@@ -187,10 +233,10 @@
                         }
                     }
                 ],
-                pageLength: -1,
+                pageLength: 5,
                 lengthMenu: [
-                    [10, 25, 50, 100, -1],
-                    [10, 25, 50, 100, "Todos"]
+                    [5, 10, 25, 50, 100, -1],
+                    [5, 10, 25, 50, 100, "Todos"]
                 ],
             });
 
